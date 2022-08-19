@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar</title>
+   <link rel="shortcut icon" href="https://secure-media.hotstar.com/web-assets/prod/D+H_favicon.ico"
+      type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #slideshow {
+            width: 99%;
+            margin: auto;
+
+        }
+
+        #slideshow>img {
+            width: 100%;
+            height: 80vh;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="left_nav">
+            <i class="fa-solid fa-align-justify"></i>
+            <div id="logo">
+                <a href="./index.html"><img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
+                    alt=""></a>
+            </div>
+            <p>TV</p>
+            <p>Movies</p>
+            <p>Sports</p>
+            <p>Disney+</p>
+        </div>
+        <div id="right_nav">
+            <form action="">
+                <input oninput="debounceFunction(main, 1000)" id="search" type="text" placeholder="Search">
+                <!-- <input type="submit" value="Search" id="submit"> -->
+            </form>
+            <button>SUBSCRIBE</button>
+            <p>LOGIN</p>
+        </div>
+    </div>
+    <div id="display"></div>
+    <div id="recommend">
+        <!-- <div id="main">
+            <div id="first">
+                <img src="https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659652__340.png" alt="">
+            </div>
+            <div id="second">
+                <p>Name: Sanjay</p>
+                <p>Year:2000</p>
+            </div> -->
+    </div>
+    <div id="trending">
+        <div id="slideshow"></div>
+        <div id="movies"></div>
+     </div>
+</body>
+
+</html>
+<script src="https://kit.fontawesome.com/8cb0dd3b9e.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
